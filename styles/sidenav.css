@@ -1,0 +1,115 @@
+.sidenavBody li {
+    margin-top: 10px;
+    border: none;
+    box-sizing: border-box;
+    /* border-radius: 5px; */
+    font-weight: lighter;
+    transition-property: all;
+    /* transform: scaleX(1); */
+    text-align: start;
+    list-style: none;
+    padding: 10px;
+    transition: 0.1s;
+    transition-property: all;
+}
+
+.sidenavBody li:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sublinks li {
+    margin-top: 5px;
+}
+
+.sub-links li:hover {
+    margin-top: 5px;
+    border-bottom: 1px solid #0A770C;
+}
+
+/* .sublinks :hover {
+    background-color: white;
+    font-weight: 600;
+} */
+
+.sidenavBody span {
+    /* background-color: #0A770C; */
+    background-color: white;
+    font-weight: 600;
+    color: grey;
+    /* box-shadow: ; */
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.sidenavBody span:hover {
+    background-color: #0A770C;
+    color: white;
+    /* background-color: white; */
+
+    /* font-weight: 600;
+   
+    box-shadow: ;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px; */
+}
+
+.sidenavBody {
+    z-index: 999999999;
+    /* position: fixed; */
+}
+
+.SecondNavLogo img {
+    height: 50px;
+    width: 50px;
+}
+
+.activated {
+
+    background: linear-gradient(135deg, #A6CE34 0%, #0A770C 100%);
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .sidenav {
+        position: fixed;
+        color: white;
+        top: 0;
+        background: linear-gradient(135deg, #A6CE34 0%, #0A770C 100%);
+        width: 85%;
+        z-index: 999999999999;
+        height: 100%;
+    }
+
+
+    .sidenav .sub-links li {
+        color: black;
+
+    }
+
+    .sidenavBody li:hover {
+        /* background-color: white;
+         */
+        color: black;
+        border-radius: 10px;
+    }
+
+    .allNavSide {
+        position: absolute;
+        color: white;
+        top: 0;
+        background: linear-gradient(135deg, #A6CE34 0%, #0A770C 100%);
+        width: 85%;
+        z-index: 999999999999;
+        height: 100%;
+    }
+
+    .subNav {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 992px) {}

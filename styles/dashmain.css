@@ -1,0 +1,48 @@
+.dashboardCenters {
+    background-color: #F6F7F8;
+    ;
+}
+
+.topnav {
+    font-size: smaller;
+}
+
+.topPills {
+    /* margin: 0; */
+    font-size: smaller;
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    width: 100%;
+    box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+}
+
+.topPills .num {
+    line-height: 0px;
+}
+
+.topPills span {
+    background: linear-gradient(135deg, #A6CE34 0%, #0A770C 100%);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    /* text-decoration: none; */
+    color: inherit;
+}
+
+.tableData {
+    font-size: smaller;
+}
+
+.singleSubmits button {
+    background: linear-gradient(135deg, #A6CE34 0%, #0A770C 100%);
+
+}
